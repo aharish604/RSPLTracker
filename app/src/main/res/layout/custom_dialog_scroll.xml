@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingLeft="@dimen/padding_thirteen_dip"
+                android:id="@+id/tv_err_msg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="@dimen/large_text"
+                android:textColor="@color/BLACK"
+                android:text="" />
+
+            <TextView
+                android:paddingLeft="@dimen/padding_thirteen_dip"
+                android:id="@+id/tv_detail_msg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="@dimen/large_text"
+                android:textColor="@color/BLACK"
+                android:visibility="gone"
+                android:text="" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

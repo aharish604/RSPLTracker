@@ -1,0 +1,156 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="very_small_text">10sp</dimen>
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="medium_text">14sp</dimen>
+    <dimen name="medium_sixteen_text">16sp</dimen>
+    <dimen name="large_text">16sp</dimen>
+    <dimen name="extra_large_text">19sp</dimen>
+    <dimen name="padding_zero_dip">0dip</dimen>
+    <dimen name="padding_point_five_dip">0.5dip</dimen>
+    <dimen name="padding_one_dip">1dip</dimen>
+    <dimen name="padding_two_dip">2dip</dimen>
+    <dimen name="padding_three_dip">3dip</dimen>
+    <dimen name="padding_four_dip">4dip</dimen>
+    <dimen name="padding_five_dip">5dip</dimen>
+    <dimen name="padding_six_dip">6dip</dimen>
+    <dimen name="padding_seven_dip">7dip</dimen>
+    <dimen name="padding_eight_dip">8dip</dimen>
+    <dimen name="padding_nine_dip">9dip</dimen>
+    <dimen name="padding_ten_dip">10dip</dimen>
+    <dimen name="padding_eleven_dip">11dip</dimen>
+    <dimen name="padding_twelve_dip">12dip</dimen>
+    <dimen name="padding_thirteen_dip">13dip</dimen>
+    <dimen name="padding_fourteen_dip">14dip</dimen>
+    <dimen name="padding_fifteen_dip">15dip</dimen>
+    <dimen name="padding_sixteen_dip">16dip</dimen>
+    <dimen name="padding_seventeen_dip">17dip</dimen>
+    <dimen name="padding_eighteen_dip">18dip</dimen>
+    <dimen name="padding_twenty_dip">20dip</dimen>
+    <dimen name="padding_twenty_five_dip">25dip</dimen>
+    <dimen name="padding_thirty_dip">30dip</dimen>
+    <dimen name="padding_thirty_three_dip">33dip</dimen>
+    <dimen name="margin_zero_dip">0dip</dimen>
+    <dimen name="margin_four_dip">4dip</dimen>
+    <dimen name="margin_two_dip">2dip</dimen>
+    <dimen name="margin_one_dip">1dip</dimen>
+    <dimen name="margin_five_dip">5dip</dimen>
+    <dimen name="margin_six_dip">6dip</dimen>
+    <dimen name="margin_seven_dip">7dip</dimen>
+    <dimen name="margin_eight_dip">8dip</dimen>
+    <dimen name="margin_nine_dip">9dip</dimen>
+    <dimen name="margin_ten_dip">10dip</dimen>
+    <dimen name="margin_point_five_dip">0.5dip</dimen>
+    <dimen name="margin_point_one_dip">0.1dip</dimen>
+    <dimen name="line_height_one_dip">1dip</dimen>
+    <dimen name="line_height_point_five_dip">1dip</dimen>
+    <dimen name="width_one_twenty_dip">120sp</dimen>
+    <dimen name="width_one_ten_dip">110sp</dimen>
+    <dimen name="width_100_dip">100dp</dimen>
+    <dimen name="width_two_twenty_dip">220sp</dimen>
+    <dimen name="width_two_fifty_dip">250sp</dimen>
+    <dimen name="width_eighty_dip">80sp</dimen>
+    <dimen name="width_two_hunred_dip">200sp</dimen>
+    <dimen name="width_thirty_dip">30dip</dimen>
+    <dimen name="width_twenty_five">25dip</dimen>
+    <dimen name="width_twenty">20dip</dimen>
+    <dimen name="width_forty_dip">40dip</dimen>
+    <dimen name="width_forty_five_dip">45dip</dimen>
+    <dimen name="width_ten_dip">10dip</dimen>
+    <dimen name="width_zero_dip">0dip</dimen>
+    <dimen name="list_divider_height">1px</dimen>
+
+    <dimen name="height_zero_dip">0dip</dimen>
+    <dimen name="height_one_dip">1dip</dimen>
+    <dimen name="height_two_dip">2dip</dimen>
+    <dimen name="height_three_dip">3dip</dimen>
+    <dimen name="height_four_dip">4dip</dimen>
+    <dimen name="height_five_dip">5dip</dimen>
+    <dimen name="height_six_dip">6dip</dimen>
+    <dimen name="height_seven_dip">7dip</dimen>
+    <dimen name="height_eight_dip">8dip</dimen>
+    <dimen name="height_nine_dip">9dip</dimen>
+    <dimen name="height_ten_dip">10dip</dimen>
+    <dimen name="height_40_dip">40dip</dimen>
+    <dimen name="height_50_dip">50dip</dimen>
+    <dimen name="height_70_dip">70dip</dimen>
+    <dimen name="height_100_dip">100dip</dimen>
+
+    <dimen name="width_seventy_dip">70sp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="width_negitive_ten">-2dip</dimen>
+    <dimen name="sevnteen_sp">17sp</dimen>
+
+    <dimen name="width_one_fifty_dip">150dip</dimen>
+    <dimen name="width_twenty_dip">20dip</dimen>
+    <dimen name="fifteen_sp">15sp</dimen>
+    <dimen name="padding_three_px">3px</dimen>
+    <dimen name="padding_one_px">1px</dimen>
+    <dimen name="width_two_hundred_dip">200dip</dimen>
+    <dimen name="line_height_one_five_zero_db">150dp</dimen>
+    <dimen name="width_one_seventy_dip">170dip</dimen>
+    <dimen name="width_one_eighty_dip">180dip</dimen>
+    <dimen name="width_fifty_dip">50dip</dimen>
+    <dimen name="three_sp">3sp</dimen>
+    <dimen name="one_sp">1sp</dimen>
+    <dimen name="six_sp">6sp</dimen>
+
+    <dimen name="width_eighty_five_dip">85dip</dimen>
+    <dimen name="width_sixty_one_dip">61dip</dimen>
+    <dimen name="width_sixty_dip">60dip</dimen>
+    <dimen name="thirteen_sp">13sp</dimen>
+
+    <dimen name="width_two_dip">2dip</dimen>
+    <dimen name="height_thirty_five_dip">35dip</dimen>
+    <dimen name="margin_fifteen_dip">15dip</dimen>
+
+    <!--so list-->
+    <dimen name="so_list_qty_width">80dp</dimen>
+    <dimen name="so_list_delv_image">32dp</dimen>
+    <dimen name="so_list_status_image">24dp</dimen>
+
+    <!--navigation-->
+    <dimen name="nav_width">200dp</dimen>
+    <dimen name="nav_header_height">75dp</dimen>
+    <dimen name="nav_item_padding">16dp</dimen>
+    <dimen name="nav_item_height">48dp</dimen>
+    <dimen name="nav_item_image_size">32dp</dimen>
+    <dimen name="nav_item_image_right">32dp</dimen>
+    <dimen name="nav_slide_width">275dp</dimen>
+
+    <!--material design spinner-->
+    <dimen name="underline_top_spacing">8dp</dimen>
+    <dimen name="underline_bottom_spacing">4dp</dimen>
+    <dimen name="error_label_spacing">12dp</dimen>
+    <dimen name="floating_label_top_spacing">4dp</dimen>
+    <dimen name="floating_label_bottom_spacing">8dp</dimen>
+    <dimen name="floating_label_inside_spacing">12dp</dimen>
+    <dimen name="right_left_spinner_padding">8dp</dimen>
+    <dimen name="label_text_size">12sp</dimen>
+    <dimen name="min_content_height">20dp</dimen>
+    <dimen name="so_details_fab_margin">16dp</dimen>
+    <dimen name="so_details_arrow_image">32dp</dimen>
+    <dimen name="so_details_header_status">48dp</dimen>
+    <dimen name="util_textview_line_spacing">4dp</dimen>
+    <dimen name="xlarge_text_size">20sp</dimen>
+    <dimen name="approval_dialog_editext_height">200dp</dimen>
+    <dimen name="approval_dialog_width">300dp</dimen>
+    <dimen name="visit_image_item_hdr">48dp</dimen>
+    <dimen name="visit_image_hdr">52dp</dimen>
+
+    <dimen name="chart_height_70">70dp</dimen>
+    <dimen name="xxlarge_text_size">23sp</dimen>
+    <dimen name="large_text_size_21">21sp</dimen>
+
+    <!--credit limit-->
+    <dimen name="chart_height">125dp</dimen>
+
+    <!--dist trend-->
+    <dimen name="dist_trend_dialog_width">250dp</dimen>
+</resources>

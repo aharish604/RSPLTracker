@@ -1,0 +1,133 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
+
+    defaultConfig {
+        applicationId 'com.arteriatech.geotrack.rspl'
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 8
+        versionName '3.0.0.7g'
+        vectorDrawables.useSupportLibrary = true
+        vectorDrawables.generatedDensities = []
+        multiDexEnabled true
+        ndk {
+            //abiFilters "armeabi", "armeabi-v7a", "x86"
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        }
+        packagingOptions {
+            //exclude "lib/arm64-v8a/libodataofflinejni.so"
+            exclude 'META-INF/LICENSE'
+            exclude 'META-INF/LICENSE-FIREBASE.txt'
+            exclude 'META-INF/NOTICE'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            lintOptions {
+                checkReleaseBuilds false
+                abortOnError false
+            }
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            minifyEnabled false
+        }
+    }
+    productFlavors {
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+ext {
+    playServices = '11.0.4'
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+  /*  compile files('libs/AfariaSLL-7.00.6169.0.jar')
+    compile files('libs/guava-r09.jar')
+    compile files('libs/perflib-1.2.0.jar')
+    compile files('libs/sap-e2etrace-2.3.9.0.jar')
+    compile files('libs/simple-xml-2.7.1.jar')
+    compile(name: 'AfariaProvider-3.16.14', ext: 'aar')
+    compile(name: 'ClientHubSLL-3.16.14', ext: 'aar')
+    compile(name: 'android-database-sqlcipher-3.5.9', ext: 'aar')*/
+
+    compile(name: 'ClientLog-3.16.14', ext: 'aar')
+    compile(name: 'Common-3.16.14', ext: 'aar')
+    compile(name: 'Connectivity-3.16.14', ext: 'aar')
+  //  compile(name: 'CoreServices-3.16.14', ext: 'aar')
+    compile(name: 'DataVaultLib-3.16.14', ext: 'aar')
+   // compile(name: 'E2ETrace-3.16.14', ext: 'aar')
+   // compile(name: 'HttpConvAuthFlows-3.16.14', ext: 'aar')
+    compile(name: 'HttpConversation-3.16.14', ext: 'aar')
+  //  compile(name: 'MAFLogger-3.16.14', ext: 'aar')
+    compile(name: 'MAFLogonCore-3.16.14', ext: 'aar')
+   // compile(name: 'MAFLogonUI-3.16.14', ext: 'aar')
+   // compile(name: 'MAFSettingScreen-3.16.14', ext: 'aar')
+   // compile(name: 'MAFUIComponents-3.16.14', ext: 'aar')
+  //  compile(name: 'MobilePlace-3.16.14', ext: 'aar')
+    compile(name: 'ODataOnline-3.16.14', ext: 'aar')
+    compile(name: 'ODataAPI-3.16.14', ext: 'aar')
+    compile(name: 'Parser-3.16.14', ext: 'aar')
+    //compile(name: 'Persistence-3.16.14', ext: 'aar')
+    compile(name: 'Request-3.16.14', ext: 'aar')
+   // compile(name: 'SupportabilityFacade-3.16.14', ext: 'aar')
+    compile(name: 'Usage-3.16.14', ext: 'aar')
+    compile(name: 'XscriptParser-3.16.14', ext: 'aar')
+    compile(name: 'odataoffline-android-4.1.8', ext: 'aar')
+    compile(name: 'mUtils-1.58.52.68', ext: 'aar')
+
+    compile 'com.intuit.sdp:sdp-android:1.0.4'
+    compile 'androidx.constraintlayout:constraintlayout:1.1.3'
+    compile 'com.google.android.gms:play-services-maps:17.0.0'
+    compile 'com.intuit.ssp:ssp-android:1.0.4'
+    compile 'androidx.multidex:multidex:2.0.0'
+    compile 'com.google.android.material:material:1.0.0'
+    compile 'androidx.legacy:legacy-support-v4:1.0.0'
+    compile 'androidx.appcompat:appcompat:1.0.0'
+    compile 'androidx.cardview:cardview:1.0.0'
+   // compile 'com.maksim88:PasswordEditText:v0.9'
+    compile 'com.google.android.gms:play-services-location:16.0.0'
+   // compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    compile 'androidx.vectordrawable:vectordrawable:1.0.0'
+  //  compile 'com.google.firebase:firebase-core:16.0.8'
+   // compile 'com.google.firebase:firebase-messaging:17.6.0'
+   // compile 'com.googlecode.libphonenumber:libphonenumber:8.3.1'
+    testCompile 'junit:junit:4.12'
+
+   // compile 'com.firebase:firebase-jobdispatcher:0.8.5'
+    compile 'com.google.android.gms:play-services-gcm:16.1.0'
+    compile 'com.google.android.gms:play-services-location:16.0.0'
+   // compile 'com.google.firebase:firebase-auth:16.2.1'
+  //  compile 'com.google.firebase:firebase-config:16.5.0'
+  //  compile 'com.google.firebase:firebase-crash:16.2.1'
+   // compile 'com.google.firebase:firebase-database:16.1.0'
+   // compile 'com.github.anrwatchdog:anrwatchdog:1.4.0'
+    compile 'commons-net:commons-net:3.3'
+    /*compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    compile 'com.google.code.gson:gson:1.7.2'
+    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'*/
+}
+apply plugin: 'com.google.gms.google-services'
+android {
+    useLibrary 'org.apache.http.legacy'
+}

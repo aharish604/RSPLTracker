@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvPendingStatus"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#F00" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            style="@style/UtilsItemSpacing"
+            android:background="@color/WHITE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvPendingCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:visibility="gone"
+
+                android:textColor="@color/BLACK"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvEntityName"
+                style="@style/UtilsMediumTextStyle"
+                android:layout_width="0dp"
+                android:textColor="#c8000000"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                android:text="TextView"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/ivUploadDownload"
+                app:layout_constraintLeft_toRightOf="@+id/tvPendingCount"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvSyncTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="16dp"
+                android:text="TextView"
+                android:visibility="gone"
+
+                android:textColor="#99000000"
+                android:textSize="@dimen/small_text"
+                app:layout_constraintEnd_toStartOf="@+id/ivUploadDownload"
+                app:layout_constraintLeft_toRightOf="@+id/tvPendingCount"
+                app:layout_constraintTop_toBottomOf="@+id/tvEntityName" />
+
+            <ImageView
+                android:id="@+id/ivShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="@color/primaryColor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_share_black_24dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+    <include layout="@layout/single_line_lay"/>
+</LinearLayout>

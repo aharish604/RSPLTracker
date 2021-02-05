@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArteriaProjects-geotracking_DEV_RSPL.iml" filepath="$PROJECT_DIR$/.idea/modules/ArteriaProjects-geotracking_DEV_RSPL.iml" group="geotracking_DEV_RSPL" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArteriaProjects-geotracking_DEV_RSPL-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArteriaProjects-geotracking_DEV_RSPL-app.iml" group="geotracking_DEV_RSPL/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RSPLTracker.iml" filepath="$PROJECT_DIR$/.idea/modules/RSPLTracker.iml" group="RSPLTracker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RSPLTracker-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RSPLTracker-app.iml" group="RSPLTracker/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geotracking.iml" filepath="$PROJECT_DIR$/geotracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/geotracking-app.iml" filepath="$PROJECT_DIR$/app/geotracking-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/geotracking_DEV_RSPL.iml" filepath="$PROJECT_DIR$/.idea/modules/geotracking_DEV_RSPL.iml" group="geotracking_DEV_RSPL" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/geotracking_DEV_RSPL-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/geotracking_DEV_RSPL-app.iml" group="geotracking_DEV_RSPL/app" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/AfariaSLL-7.00.6169.0.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/AfariaSLL-7.00.6169.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

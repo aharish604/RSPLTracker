@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :ODataOnline-3.16.14:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21dcedcf9b57e23635e2c1b89450aed5/jetified-ODataOnline-3.16.14/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21dcedcf9b57e23635e2c1b89450aed5/jetified-ODataOnline-3.16.14/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21dcedcf9b57e23635e2c1b89450aed5/jetified-ODataOnline-3.16.14/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

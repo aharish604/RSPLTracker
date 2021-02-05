@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :Request-3.16.14:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b032217c695677246f07bbd892b5bc3/jetified-Request-3.16.14/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b032217c695677246f07bbd892b5bc3/jetified-Request-3.16.14/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b032217c695677246f07bbd892b5bc3/jetified-Request-3.16.14/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

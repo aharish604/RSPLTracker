@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :XscriptParser-3.16.14:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9a8b60e7d343dcf2c6dc38d11b5876c/jetified-XscriptParser-3.16.14/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9a8b60e7d343dcf2c6dc38d11b5876c/jetified-XscriptParser-3.16.14/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9a8b60e7d343dcf2c6dc38d11b5876c/jetified-XscriptParser-3.16.14/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

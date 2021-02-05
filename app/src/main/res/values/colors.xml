@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="BLACK" type="color">#000000</item>
+    <item name="YELLOW" type="color">#FFFF00</item>
+    <item name="BLUE" type="color">#183883</item>
+    <item name="GREEN" type="color">#008000</item>
+    <item name="mat_code_color" type="color">#008000</item>
+    <item name="PURPLE" type="color">#800080</item>
+    <item name="RED" type="color">#ff0000</item>
+    <item name="ORANGE" type="color">#ffa500</item>
+    <item name="PINK" type="color">#ffc0cb</item>
+    <item name="GREY" type="color">#D3D3D3</item>
+    <item name="BUTTONBACKGOUNDCOLOR" type="color">#CCCCFF</item>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="light_alice_blue">#D3D3D3</color>
+    <color name="blue_ivy">#000000</color>
+    <color name="icon_text_blue">#000000</color>
+    <color name="text_red">#DA2128</color>
+    <color name="button_background_color">#ADD8E6</color>
+    <color name="light_blue_color">#c8dcff</color>
+    <color name="light_custom_spinner_bg_clr">#dfdfdf</color>
+
+    <color name="divider_line">#1e000000</color>
+    <color name="gradient_start">#FFFFFF</color>
+    <color name="gradient_end">#EBF0FA</color>
+    <color name="splash_end">#0000cc</color>
+    <color name="nav_text_color">#dd000000</color>
+    <color name="support_image">#6a91ae</color>
+    <color name="nav_image">#555555</color>
+    <color name="card_view">#D3D3D3</color>
+    <color name="TEXT_COLOR">#000033</color>
+    <color name="HeaderTileBackground">#7BAAFF</color>
+    <color name="header_tile_text_color">#000000</color>
+    <color name="vertical_line_color">#EBF0FA</color>
+    <color name="line_color">#000000</color>
+    <color name="LBL_BACKGROUND_ASH_COLOR">#cccccc</color>
+
+    <!--  <color name="colorPrimary">#3F51B5</color>
+      <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimary">@color/primaryColor</color>
+    <color name="colorPrimaryDark">@color/primaryDarkColor</color>
+
+    <color name="colorAccent">@color/secondaryDarkColor</color>
+    <color name="green_light">#00a98f</color>
+
+
+    <color name="edit_label">#D3D3D3</color>
+    <color name="edittext_background">#ffffff</color>
+    <color name="edittext_background_pressed">#ffffff</color>
+    <color name="edittext_border">#e9e9e9</color>
+    <color name="bg_title">#D8D8D8</color>
+
+
+    <color name="dimgray">#727272</color>
+
+
+    <color name="MainColor">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="title_bg">#B8CCE4</color>
+    <color name="sub_title_bg">#DDD9C3</color>
+    <color name="transperant">#00ffffff</color>
+
+    <color name="sub_text_view">#848284</color>
+
+    <!-- so status color-->
+    <color name="ApprovedColor">#2cb037</color>
+    <color name="PendingApprovalColor">#FFA500</color>
+    <color name="RejectedColor">#ff0000</color>
+    <color name="OkColor">#ff0000</color>
+    <color name="ClosedColor">#2cb037</color>
+    <color name="OpenColor">#FFA500</color>
+    <color name="PartialyClosedColor">#FFA500</color>
+    <color name="GRStatusColor">#A7B7C2</color>
+
+    <color name="button_color">#007bee</color>
+    <color name="grp_header">#007bee</color>
+
+
+    <!-- material design color-->
+
+    <!-- <color name="primaryColor">#dc1706</color>
+     <color name="primaryLightColor">#ff5936</color>
+     <color name="primaryDarkColor">#a20000</color>
+     <color name="secondaryColor">#168ccd</color>
+     <color name="secondaryLightColor">#62bcff</color>
+     <color name="secondaryDarkColor">#005f9c</color>
+     <color name="primaryTextColor">#ffffff</color>
+     <color name="secondaryTextColor">#000000</color>-->
+
+    <!--v2-->
+    <!--<color name="primaryColor">#183d8e</color>
+    <color name="primaryLightColor">#5467bf</color>
+    <color name="primaryDarkColor">#001860</color>
+    <color name="secondaryColor">#168ccd</color>
+    <color name="secondaryLightColor">#62bcff</color>
+    <color name="secondaryDarkColor">#005f9c</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>-->
+
+    <!--v3-->
+    <!-- <color name="primaryColor">#183d8e</color>
+     <color name="primaryLightColor">#5467bf</color>
+     <color name="primaryDarkColor">#001860</color>
+     <color name="secondaryColor">#d2d3d5</color>&lt;!&ndash;#2987b7&ndash;&gt;
+     <color name="secondaryLightColor">#ffffff</color>
+     &lt;!&ndash;<color name="secondaryDarkColor">#a1a2a4</color>&ndash;&gt;
+     <color name="secondaryDarkColor">#d2d3d5</color>
+     <color name="primaryTextColor">#ffffff</color>
+     <color name="secondaryTextColor">#000000</color>-->
+
+    <!--v4-->
+    <color name="primaryColor">#183d8e</color>
+    <color name="primaryLightColor">#5467bf</color>
+    <color name="primaryDarkColor">#001860</color>
+    <color name="secondaryColor">#2987b7</color>
+    <color name="secondaryLightColor">#66b7e9</color>
+    <color name="secondaryDarkColor">#005a87</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <!--  <color name="primaryColor">#183d8e</color>
+      <color name="primaryLightColor">#5467bf</color>
+      <color name="primaryDarkColor">#001860</color>
+      <color name="secondaryColor">#183d8e</color>
+      <color name="secondaryLightColor">#5467bf</color>
+      <color name="secondaryDarkColor">#001860</color>
+      <color name="primaryTextColor">#ffffff</color>
+      <color name="secondaryTextColor">#ffffff</color>-->
+
+    <!--material design spinner-->
+    <color name="disabled_color">#44000000</color>
+    <color name="error_color">#E7492E</color>
+    <color name="scheme_header_background">#85aefa</color>
+    <color name="StatusDefaultColor">#000000</color>
+    <color name="InvStatusGreyColor">#A7B7C2</color>
+    <color name="InvStatusRed">#ff0000</color>
+    <color name="InvStatusOrange">#FFA500</color>
+    <color name="InvStatusGreen">#2cb037</color>
+    <color name="future_day">#89000000</color>
+
+    <!--toogle color-->
+    <color name="button_primary_color">@color/primaryColor</color>
+    <color name="button_secondary_color">#d4ffffff</color>
+
+    <color name="dashboard_title_color">#666666</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

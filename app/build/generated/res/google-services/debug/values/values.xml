@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">648361581535-mpjdsr363uhk11q632fd1d0nakgf92ud.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://locationtracker-e9bd2.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">648361581535</string>
+    <string name="google_api_key" translatable="false">AIzaSyDcLY3_DUavRPvsY_ZazcYffSXsrZprZPg</string>
+    <string name="google_app_id" translatable="false">1:648361581535:android:271b79bfcc9434c4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDcLY3_DUavRPvsY_ZazcYffSXsrZprZPg</string>
+    <string name="google_storage_bucket" translatable="false">locationtracker-e9bd2.appspot.com</string>
+    <string name="project_id" translatable="false">locationtracker-e9bd2</string>
+</resources>

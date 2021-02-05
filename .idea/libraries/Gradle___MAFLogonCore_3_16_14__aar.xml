@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :MAFLogonCore-3.16.14:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67fcc4ce55fca8640ea57f9102ddc482/jetified-MAFLogonCore-3.16.14/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67fcc4ce55fca8640ea57f9102ddc482/jetified-MAFLogonCore-3.16.14/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67fcc4ce55fca8640ea57f9102ddc482/jetified-MAFLogonCore-3.16.14/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

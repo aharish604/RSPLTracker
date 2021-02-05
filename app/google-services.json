@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "648361581535",
+    "firebase_url": "https://locationtracker-e9bd2.firebaseio.com",
+    "project_id": "locationtracker-e9bd2",
+    "storage_bucket": "locationtracker-e9bd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648361581535:android:b5599a8062cdeaf2",
+        "android_client_info": {
+          "package_name": "com.google.transporttracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648361581535-mpjdsr363uhk11q632fd1d0nakgf92ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcLY3_DUavRPvsY_ZazcYffSXsrZprZPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648361581535:android:271b79bfcc9434c4",
+        "android_client_info": {
+          "package_name": "com.arteriatech.geotrack.rspl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648361581535-mpjdsr363uhk11q632fd1d0nakgf92ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcLY3_DUavRPvsY_ZazcYffSXsrZprZPg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

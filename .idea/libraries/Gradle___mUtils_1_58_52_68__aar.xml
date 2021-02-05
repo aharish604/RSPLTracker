@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: :mUtils-1.58.52.68:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea9e2804bab85bc5c02c00484c114097/jetified-mUtils-1.58.52.68/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea9e2804bab85bc5c02c00484c114097/jetified-mUtils-1.58.52.68/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea9e2804bab85bc5c02c00484c114097/jetified-mUtils-1.58.52.68/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ea9e2804bab85bc5c02c00484c114097/jetified-mUtils-1.58.52.68/jars/libs/gson-2.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

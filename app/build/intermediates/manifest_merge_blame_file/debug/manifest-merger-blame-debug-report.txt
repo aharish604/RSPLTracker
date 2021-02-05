@@ -1,0 +1,420 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.arteriatech.geotrack.rspl"
+4    android:versionCode="8"
+5    android:versionName="3.0.0.7g" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml
+10    <!--
+11    <permission
+12        android:name="com.rspl.sf.msfa.permission.MAPS_RECEIVE"
+13        android:protectionLevel="signature" />
+14    -->
+15    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" /> <!-- <uses-permission android:name="com.rspl.sf.msfa.permission.MAPS_RECEIVE" /> -->
+15-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:12:5-76
+15-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:12:22-73
+16    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+16-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:13:5-98
+16-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:13:22-95
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:14:5-81
+17-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:14:22-78
+18    <uses-permission android:name="android.permission.CALL_PHONE" />
+18-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:15:5-69
+18-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:15:22-66
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:16:5-67
+19-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:16:22-64
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:17:5-81
+20-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:17:22-78
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:18:5-79
+21-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:18:22-76
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:19:5-75
+22-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:19:22-72
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:20:5-76
+23-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:20:22-73
+24    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+24-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:21:5-76
+24-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:21:22-73
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:22:5-79
+25-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:22:22-76
+26    <uses-permission android:name="android.permission.READ_LOGS" />
+26-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:23:5-68
+26-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:23:22-65
+27    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+27-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:24:5-85
+27-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:24:22-82
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:25:5-27:48
+28-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:26:9-65
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:28:5-30:48
+29-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:29:9-64
+30    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+30-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:31:5-33:48
+30-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:32:9-65
+31    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+31-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:34:5-78
+31-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:34:22-75
+32    <uses-permission android:name="android.permission.READ_CALENDAR" />
+32-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:35:5-72
+32-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:35:22-69
+33    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+33-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:36:5-73
+33-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:36:22-70
+34    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+34-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:37:5-74
+34-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:37:22-71
+35    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+35-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:38:5-95
+35-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:38:22-92
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+36-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:39:5-77
+36-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:39:22-74
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:40:5-68
+37-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:40:22-65
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:39:5-77
+38-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:39:22-74
+39    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+39-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:42:5-79
+39-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:42:22-76
+40    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+40-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:43:5-73
+40-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:43:22-70
+41    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+41-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:44:5-80
+41-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:44:22-77
+42    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+42-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:45:5-91
+42-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:45:22-88
+43
+44    <uses-feature
+44-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ec981d2fbf9058a0ba819396adc840a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+45        android:glEsVersion="0x00020000"
+45-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ec981d2fbf9058a0ba819396adc840a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+46        android:required="true" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+46-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ec981d2fbf9058a0ba819396adc840a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+47    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+47-->[com.google.android.gms:play-services-gcm:16.1.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\0d4cd28e4673ae3d4b3cc173dff5d20a\jetified-play-services-gcm-16.1.0\AndroidManifest.xml:23:5-82
+47-->[com.google.android.gms:play-services-gcm:16.1.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\0d4cd28e4673ae3d4b3cc173dff5d20a\jetified-play-services-gcm-16.1.0\AndroidManifest.xml:23:22-79
+48
+49    <application
+49-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:47:5-150:19
+50        android:name="com.arteriatech.geotrack.rspl.MSFAGEOApplication"
+50-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:48:9-43
+51        android:allowBackup="true"
+51-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:49:9-35
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\21f188563a123e6c0b3850ea60f22245\core-1.0.0\AndroidManifest.xml:22:18-86
+53        android:debuggable="true"
+54        android:icon="@mipmap/ic_app_launcher"
+54-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:50:9-47
+55        android:label="@string/app_name"
+55-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:51:9-41
+56        android:largeHeap="true"
+56-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:52:9-33
+57        android:requestLegacyExternalStorage="true"
+57-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:53:9-52
+58        android:supportsRtl="true"
+58-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:11:9-35
+59        android:testOnly="true"
+60        android:theme="@style/AppThemeNoActionBar" >
+60-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:54:9-51
+61        <activity
+61-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:55:9-60:20
+62            android:name="com.arteriatech.geotrack.rspl.log.ExternalStorageLogsActivity"
+62-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:55:19-66
+63            android:configChanges="keyboard|keyboardHidden|orientation"
+63-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:56:13-72
+64            android:screenOrientation="portrait"
+64-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:57:13-49
+65            android:theme="@style/AppThemeNoActionBar" >
+65-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:58:13-55
+66        </activity>
+67        <activity android:name="com.arteriatech.geotrack.rspl.ValidateIMEIActivity" />
+67-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:61:9-58
+67-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:61:19-55
+68        <activity
+68-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:62:9-71:20
+69            android:name="com.arteriatech.geotrack.rspl.systemdeviceadmin.MainActivity"
+69-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:63:13-59
+70            android:label="@string/app_name"
+70-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:64:13-45
+71            android:theme="@style/AppTheme.Launcher" >
+71-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:65:13-53
+72            <intent-filter>
+72-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:66:13-70:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:67:17-69
+73-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:67:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:69:17-77
+75-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:69:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:72:9-76:56
+79            android:name="com.arteriatech.geotrack.rspl.dashboard.MainMenu"
+79-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:73:13-47
+80            android:configChanges="keyboard|keyboardHidden|orientation"
+80-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:74:13-72
+81            android:screenOrientation="portrait"
+81-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:75:13-49
+82            android:theme="@style/AppTheme.Launcher" />
+82-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:76:13-53
+83        <activity
+83-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:77:9-81:56
+84            android:name="com.arteriatech.geotrack.rspl.registration.RegistrationActivity"
+84-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:78:13-62
+85            android:configChanges="keyboard|keyboardHidden|orientation"
+85-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:79:13-72
+86            android:screenOrientation="portrait"
+86-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:80:13-49
+87            android:theme="@style/AppTheme.Launcher" />
+87-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:81:13-53
+88        <activity
+88-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:82:9-86:58
+89            android:name="com.arteriatech.geotrack.rspl.log.LogActivity"
+89-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:83:13-44
+90            android:configChanges="keyboard|keyboardHidden|orientation"
+90-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:84:13-72
+91            android:screenOrientation="portrait"
+91-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:85:13-49
+92            android:theme="@style/AppThemeNoActionBar" /> <!-- This is where we register our receiver -->
+92-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:86:13-55
+93        <receiver
+93-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:87:9-100:20
+94            android:name="com.arteriatech.geotrack.rspl.systemdeviceadmin.DeviceAdminDemoReceiver"
+94-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:88:13-70
+95            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+95-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:89:13-70
+96            <intent-filter>
+96-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:90:13-94:29
+97
+98                <!-- This action is required -->
+99                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+99-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:93:17-82
+99-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:93:25-79
+100            </intent-filter>
+101
+102            <!-- This is required this receiver to become device admin component. -->
+103            <meta-data
+103-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:97:13-99:57
+104                android:name="android.app.device_admin"
+104-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:98:17-56
+105                android:resource="@xml/uses_policies" />
+105-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:99:17-54
+106        </receiver>
+107        <receiver
+107-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:101:9-108:20
+108            android:name="com.arteriatech.geotrack.rspl.SPGeo.services.AlaramRecevier"
+108-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:102:13-58
+109            android:enabled="true"
+109-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:103:13-35
+110            android:process=":externalProcess" >
+110-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:104:13-47
+111            <intent-filter>
+111-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:105:13-107:29
+112                <action android:name="com.test.intent.action.ALARM" />
+112-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:106:17-71
+112-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:106:25-68
+113            </intent-filter>
+114        </receiver>
+115
+116        <activity android:name="com.arteriatech.geotrack.rspl.synchistoryInfo.SyncHistoryInfoActivity" />
+116-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:110:9-77
+116-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:110:19-74
+117
+118        <service
+118-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:112:9-115:72
+119            android:name="com.arteriatech.geotrack.rspl.autosync.AutoSyncLocationDataService"
+119-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:113:13-65
+120            android:exported="false"
+120-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:114:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" />
+121-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:115:13-69
+122
+123        <receiver android:name="com.arteriatech.geotrack.rspl.autosync.AutoSyncDataLocationAlarmReceiver" />
+123-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:117:9-80
+123-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:117:19-77
+124        <receiver
+124-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:118:9-126:20
+125            android:name="com.arteriatech.geotrack.rspl.backgroundlocationtracker.TrackerBroadcastReceiver"
+125-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:119:13-79
+126            android:enabled="true"
+126-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:120:13-35
+127            android:exported="true"
+127-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:121:13-36
+128            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+128-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:122:13-75
+129            <intent-filter>
+129-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:123:13-125:29
+130                <action android:name="android.intent.action.BOOT_COMPLETED" />
+130-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:124:17-79
+130-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:124:25-76
+131            </intent-filter>
+132        </receiver>
+133
+134        <service
+134-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:128:9-135:19
+135            android:name="com.arteriatech.geotrack.rspl.backgroundlocationtracker.TrackerTaskService"
+135-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:129:13-73
+136            android:exported="true"
+136-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:130:13-36
+137            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+137-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:131:13-93
+138            <intent-filter>
+138-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:132:13-134:29
+139                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+139-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:133:17-87
+139-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:133:25-84
+140            </intent-filter>
+141        </service>
+142        <service
+142-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:136:9-140:50
+143            android:name="com.arteriatech.geotrack.rspl.backgroundlocationtracker.TrackerService"
+143-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:137:13-69
+144            android:enabled="true"
+144-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:138:13-35
+145            android:exported="true"
+145-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:139:13-36
+146            android:process=":externalProcess" />
+146-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:140:13-47
+147
+148        <provider
+148-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:141:9-149:20
+149            android:name="androidx.core.content.FileProvider"
+149-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:142:13-62
+150            android:authorities="com.arteriatech.geotrack.rspl.provider"
+150-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:143:13-73
+151            android:exported="false"
+151-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:144:13-37
+152            android:grantUriPermissions="true" >
+152-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:145:13-47
+153            <meta-data
+153-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:146:13-148:58
+154                android:name="android.support.FILE_PROVIDER_PATHS"
+154-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:147:17-67
+155                android:resource="@xml/provider_paths" />
+155-->C:\Users\E11128\Music\Projects\RSPL\Tracker\RSPL_Updated\geotracking\app\src\main\AndroidManifest.xml:148:17-55
+156        </provider>
+157
+158        <activity
+158-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:12:9-16:59
+159            android:name="com.arteriatech.mutils.upgrade.UpdateDialogActivity"
+159-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:13:13-79
+160            android:configChanges="keyboard|keyboardHidden|orientation"
+160-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:14:13-72
+161            android:screenOrientation="portrait"
+161-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:15:13-49
+162            android:theme="@android:style/Theme.Dialog" />
+162-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:16:13-56
+163        <activity
+163-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:17:9-21:58
+164            android:name="com.arteriatech.mutils.registration.UtilRegistrationActivity"
+164-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:18:13-88
+165            android:configChanges="keyboard|keyboardHidden|orientation"
+165-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:19:13-72
+166            android:screenOrientation="portrait"
+166-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:20:13-49
+167            android:theme="@style/AppThemeNoActionBar" />
+167-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:21:13-55
+168        <activity
+168-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:22:9-26:58
+169            android:name="com.arteriatech.mutils.registration.SupportActivity"
+169-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:23:13-79
+170            android:configChanges="keyboard|keyboardHidden|orientation"
+170-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:24:13-72
+171            android:screenOrientation="portrait"
+171-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:25:13-49
+172            android:theme="@style/AppThemeNoActionBar" />
+172-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:26:13-55
+173        <activity
+173-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:27:9-31:58
+174            android:name="com.arteriatech.mutils.login.PasscodeLoginActivity"
+174-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:28:13-78
+175            android:configChanges="keyboard|keyboardHidden|orientation"
+175-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:29:13-72
+176            android:screenOrientation="portrait"
+176-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:30:13-49
+177            android:theme="@style/AppThemeNoActionBar" />
+177-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:31:13-55
+178        <activity
+178-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:32:9-37:58
+179            android:name="com.arteriatech.mutils.login.LoginActivity"
+179-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:33:13-70
+180            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
+180-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:34:13-115
+181            android:launchMode="singleTask"
+181-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:35:13-44
+182            android:supportsPictureInPicture="true"
+182-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:36:13-52
+183            android:theme="@style/AppThemeNoActionBar" />
+183-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:37:13-55
+184        <activity
+184-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:38:9-42:58
+185            android:name="com.arteriatech.mutils.support.PasscodeActivity"
+185-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:39:13-75
+186            android:configChanges="keyboard|keyboardHidden|orientation"
+186-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:40:13-72
+187            android:screenOrientation="portrait"
+187-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:41:13-49
+188            android:theme="@style/AppThemeNoActionBar" />
+188-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:42:13-55
+189        <activity
+189-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:43:9-47:58
+190            android:name="com.arteriatech.mutils.updatepassword.UpdatePasswordActivity"
+190-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:44:13-88
+191            android:configChanges="keyboard|keyboardHidden|orientation"
+191-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:45:13-72
+192            android:screenOrientation="portrait"
+192-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:46:13-49
+193            android:theme="@style/AppThemeNoActionBar" />
+193-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:47:13-55
+194        <activity
+194-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:48:9-52:58
+195            android:name="com.arteriatech.mutils.support.SecuritySettingActivity"
+195-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:49:13-82
+196            android:configChanges="keyboard|keyboardHidden|orientation"
+196-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:50:13-72
+197            android:screenOrientation="portrait"
+197-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:51:13-49
+198            android:theme="@style/AppThemeNoActionBar" /> <!-- Needs to be explicitly declared on P+ -->
+198-->[:mUtils-1.58.52.68:] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ea9e2804bab85bc5c02c00484c114097\jetified-mUtils-1.58.52.68\AndroidManifest.xml:52:13-55
+199        <uses-library
+199-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ec981d2fbf9058a0ba819396adc840a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+200            android:name="org.apache.http.legacy"
+200-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ec981d2fbf9058a0ba819396adc840a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+201            android:required="false" />
+201-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\ec981d2fbf9058a0ba819396adc840a9\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+202
+203        <activity
+203-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\7f1c05604811b5d8b0b39e85e23d9427\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+204            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+204-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\7f1c05604811b5d8b0b39e85e23d9427\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+205            android:exported="false"
+205-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\7f1c05604811b5d8b0b39e85e23d9427\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+206            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+206-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\7f1c05604811b5d8b0b39e85e23d9427\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+207
+208        <meta-data
+208-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\aa0b0b1b8ee658361451379d95ea2969\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+209            android:name="com.google.android.gms.version"
+209-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\aa0b0b1b8ee658361451379d95ea2969\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+210            android:value="@integer/google_play_services_version" />
+210-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\E11128\.gradle\caches\transforms-2\files-2.1\aa0b0b1b8ee658361451379d95ea2969\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+211    </application>
+212
+213</manifest>
